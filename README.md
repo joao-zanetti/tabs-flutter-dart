@@ -14,7 +14,7 @@ Test page StatelessWidget.
 ### Call tabspage.dart example:<br/>
 ```
 var = myUser;
-myUser= "";  //"" read from database or insert the values before the call bellow;
+myUser= "";  // read from database or insert the values before the call bellow;
 Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => TabsPage(myUser)))
 
 ```
